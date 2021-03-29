@@ -5,6 +5,7 @@ import (
      "strings"
 )
 
+
 func main() {
 	var i string
         fmt.Scanln(&i)
