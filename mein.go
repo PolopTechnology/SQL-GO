@@ -22,9 +22,10 @@ func main() {
         }
         
         file := `1{Table
-1}1[1d;id, 2d;name
+1}1[1d;id, 2d;name, 3d;age
 --1}1d]1-2
---1}2d]Sergio-Ana`
+--1}2d]Sergio-Ana
+--1}3d]12-21`
         
         if init == 1 {
            split2 := strings.Split(file, "{")
